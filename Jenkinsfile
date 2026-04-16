@@ -6,7 +6,7 @@ pipeline {
         jdk 'JDK'
     }
     stages {
-        stage('Checkout SCM') {
+        stage('Checkout') {
             steps {
                 git branch: 'master', url: 'https://github.com/jynx0405/Gradle_test1.git'
             }
